@@ -68,7 +68,7 @@ You can hit the windows key and type “QMK MSYS” to find the program
 
 Depending on your [keyboard layout](https://upload.wikimedia.org/wikipedia/commons/1/14/Physical_keyboard_layouts_comparison_ANSI_ISO.png):
 
-    make keychron/k2/rgb/via:default
+    qmk compile -kb keychron/k2/rgb/v2/ansi -km via
 
  2.9. Navigate to the qmk directory
 
